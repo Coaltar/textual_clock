@@ -1,13 +1,10 @@
-from time import localtime, monotonic, struct_time
+import time as pytime
 
-from textual.app import App, ComposeResult
-from textual.containers import Container
 from textual.reactive import reactive
-from textual.widgets import Button, Footer, Header, Static
+from textual.widgets import Static
 
 from ascii_clock import ASCII_Clock
 
-import time as pytime
 
 
 class ClockDisplay(Static):
