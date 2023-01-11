@@ -31,7 +31,6 @@ class ClockDisplay(Static):
     def watch_time(self, time) -> None:
         """Called when the time attribute changes."""
         clock_image = self.analog_clock.get_clock_ascii(time)
-        self.analog_clock.resize(time.tm_sec)
         self.update(clock_image)
 
 
