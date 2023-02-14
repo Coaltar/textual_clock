@@ -1,9 +1,9 @@
 # Textual Clock
-
 A simple clock widget made for textual apps!
 
-## Goals and Ideas
+![Example](screenshot.png)
 
+## Notes
 - digital option
 - give it theme options
 - use a square font
